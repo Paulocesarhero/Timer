@@ -7,19 +7,24 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
 
                 <androidx.wear.widget.WearableRecyclerView
                     android:id="@+id/lista"
-                    android:layout_width="match_parent"
+                    android:layout_width="159dp"
                     android:layout_height="match_parent"
-                    android:scrollbars="vertical" >
-
+                    android:scrollbars="none">
 
 
                 </androidx.wear.widget.WearableRecyclerView>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_add" />
         </LinearLayout>
 
 
